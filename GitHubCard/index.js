@@ -1,4 +1,5 @@
-// Pre-fetched GitHub user data
+document.addEventListener('DOMContentLoaded', function() {
+
 const githubUserData = {
   tetondan: {
     avatar_url: 'https://avatars.githubusercontent.com/u/28383664?v=4',
@@ -101,3 +102,5 @@ function githubCard(gitInfo) {
 
   return card;
 }
+
+});
